@@ -30,3 +30,17 @@ The CSS file contains styles for the elements in the web page, including the per
   
 # Conclusion
 This documentation provided an overview of a web application built with React using Typescript. The application displays the periodic table of elements by reading data from a JSON file. The application is responsive and can be used on various devices and platforms. The application uses few components like: loadElements, outputElements, ShowInfo to display the periodic table and its properties. The data is stored in a JSON file located in repository on Github.
+
+  
+UML DIAGRAM:  
++-----------------+        +-----------------+        +------------------------+
+|     index.js    |        |    main.html    |        |       style.css        |
++-----------------+        +-----------------+        +------------------------+
+|    JavaScript   |        |     HTML/CSS    |        |       CSS Styles       |
+|      code       |        |     Markup      |        |   Styling definitions  |
+|                 |        |   Structure     |        |                        |
+|   - Functions   |        |  - Main layout  |        |                        |
+|   - Variables   |        |  - Element info |        |                        | 
+|   - Event       |        |   display area  |        |                        |
+|     listeners   |        |                 |        |                        |
++-----------------+        +-----------------+        +------------------------+
